@@ -1,0 +1,48 @@
+body #father{
+    background-color: black;
+ }
+ /* caja 1 */
+ body #caja1{
+    height: 30vh;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+ }
+ body #caja1 #columna1 {
+    background-color:turquoise;
+    width: 33.33%;
+    margin: 5px;
+ }
+ body #caja1 #columna2 {
+    background-color:turquoise;
+    width: 66.67%;
+    margin: 5px;
+ }
+  /* caja 2 */
+  body #caja2{
+    height: 60vh;
+    background-color:yellowgreen;
+    width: 100%;
+ }
+ body #caja2 #fila1 {
+    background-color:violet;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+body #caja2 #fila1 #columna3,#columna4,#columna5 {
+    background-color:palevioletred;
+    width: 33.33%;
+    margin: 5px;
+}
+body #caja2 #fila2 {
+    background-color:brown;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+body #caja2 #fila2 #columna6,#columna7 {
+    background-color:orange;
+    width: 50%;
+    margin: 5px;
+}
